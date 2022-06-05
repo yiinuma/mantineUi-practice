@@ -18,7 +18,11 @@ export const DashBoard = () => {
         <ShieldCheckIcon className="mb-4 h-14 w-14 text-teal-500" />
       </Center>
       <Center>
-        <Menu trigger="hover" size="xl">
+        <Menu
+          // trigger="hover"
+          size="xl"
+          control={<button type="button">Select Menu</button>}
+        >
           <Menu.Label>UI Components</Menu.Label>
           <Menu.Item
             icon={<Settings size={16} />}
