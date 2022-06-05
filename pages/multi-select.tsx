@@ -53,7 +53,7 @@ const MultiSelectDemo = () => {
           my="lg"
           value={selectValue}
           onChange={setSelectValue}
-          data={['Next.js', 'Remix', 'Gatsby.js']}
+          data={['Next.js', 'Remix', 'Gatsby.js', 'Django']}
           placeholder="Select items"
           clearable
         />

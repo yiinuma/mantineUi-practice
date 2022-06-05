@@ -1,6 +1,6 @@
 import { ShieldCheckIcon } from '@heroicons/react/solid';
 import { LogoutIcon } from '@heroicons/react/outline';
-import { ActionIcon, Center, Menu } from '@mantine/core';
+import { ActionIcon, Button, Center, Menu } from '@mantine/core';
 import { NextLink } from '@mantine/next';
 import { Settings } from 'tabler-icons-react';
 
@@ -21,7 +21,7 @@ export const DashBoard = () => {
         <Menu
           // trigger="hover"
           size="xl"
-          control={<button type="button">Select Menu</button>}
+          control={<Button>Select Demo</Button>}
         >
           <Menu.Label>UI Components</Menu.Label>
           <Menu.Item
