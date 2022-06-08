@@ -15,7 +15,7 @@
     "@mantine/form": "^4.2.7",
     "@mantine/hooks": "^4.2.7",
     "@mantine/next": "^4.2.7",
-    "@mantine/notifications": "^4.2.7",
+    "@mantine/notifications": "^4.2.8",
     "@supabase/supabase-js": "^1.35.3",
     "@tailwindcss/line-clamp": "^0.4.0",
     "axios": "^0.27.2",

@@ -26,9 +26,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           fontFamily: 'Verdana, sans-serif',
         }}
       >
-        {/* <NotificationsProvider limit={2}> */}
-        <Component {...pageProps} />
-        {/* </NotificationsProvider> */}
+        <NotificationsProvider limit={2}>
+          <Component {...pageProps} />
+        </NotificationsProvider>
       </MantineProvider>
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
